@@ -1,0 +1,47 @@
+.root{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 100%;
+}
+
+.categories{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.categories p {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-right: 1rem;
+  text-transform: capitalize;
+  border-right: 1px solid gray;
+}
+
+.categories p:last-child{
+  border: none;
+}
+
+.categories p:hover{
+  color: #c0aa83;
+  cursor: pointer;
+}
+
+.buttons {
+  align-self: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.buttons button{
+  border: none;
+  background-color: #eee;
+  border-radius: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  height: 2rem;
+  padding: 0.5rem;
+  width: 2rem;
+}

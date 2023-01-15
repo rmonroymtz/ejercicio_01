@@ -1,0 +1,30 @@
+.root{
+  display: flex;
+  gap: 1rem;
+}
+
+.productContainer{
+  display: grid;
+  border: 1px solid #eeeeee; 
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+.productContainer p {
+  text-transform: capitalize;
+}
+
+.productContainer button{
+  border: none;
+  cursor: pointer;
+  padding: 1rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 0.125rem;
+  transition: 0.5s;
+  background-color: #f0f0f0;
+}
+
+.productContainer button:hover{
+  background-color: #c0aa83;
+  color: white;
+}

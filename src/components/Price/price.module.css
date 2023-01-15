@@ -1,0 +1,9 @@
+.price{
+  font-weight: bold;
+}
+
+.price span{
+  color: lightgray;
+  font-weight: normal;
+  text-decoration: line-through;
+}
